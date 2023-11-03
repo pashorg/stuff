@@ -1,14 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-11-03T07:08:14.199Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="ZCSYXZzX1oUW8DgWtV7r" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-03T07:11:25.087Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="IhKmYbSc4rvvirdv-V-G" version="22.0.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="7953" dy="3084" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="9321" dy="3855" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="oMOU8abp3YVI7Rxpy9HV-287" value="postProcessLastStep" style="rounded=0;whiteSpace=wrap;html=1;align=right;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1690" y="2130" width="1600" height="290" as="geometry" />
-        </mxCell>
         <mxCell id="oMOU8abp3YVI7Rxpy9HV-286" value="loadCache" style="rounded=0;whiteSpace=wrap;html=1;align=right;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1690" y="1970" width="900" height="120" as="geometry" />
+          <mxGeometry x="1680" y="1960" width="840" height="130" as="geometry" />
         </mxCell>
         <mxCell id="oMOU8abp3YVI7Rxpy9HV-145" value="processNextStep" style="rounded=0;whiteSpace=wrap;html=1;align=right;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1340" y="260" width="2380" height="1410" as="geometry" />
@@ -21,9 +18,6 @@
         </mxCell>
         <mxCell id="oMOU8abp3YVI7Rxpy9HV-214" value="Make form and content" style="rounded=0;whiteSpace=wrap;html=1;align=right;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1470" y="860" width="2090" height="250" as="geometry" />
-        </mxCell>
-        <mxCell id="oMOU8abp3YVI7Rxpy9HV-83" value="Process Before Jobs" style="rounded=0;whiteSpace=wrap;html=1;align=right;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1920" y="330" width="1600" height="170" as="geometry" />
         </mxCell>
         <mxCell id="HzOZvC4D4owGl6JWsQrj-176" value="Процессинг шага&lt;br&gt;ScriptRun.&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;processStep" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-1810" y="1380" width="74" height="910" as="geometry" />
@@ -1167,7 +1161,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xOqZB8mLKuCw61lma7QM-53" value="Возвращает nextStepId, если он один" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-10" y="466" width="160" height="30" as="geometry" />
+          <mxGeometry x="-20" y="496" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xOqZB8mLKuCw61lma7QM-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xOqZB8mLKuCw61lma7QM-51" target="xOqZB8mLKuCw61lma7QM-53" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1175,16 +1169,16 @@
         <mxCell id="xOqZB8mLKuCw61lma7QM-55" value="Возвращает nextStepId и формирует список AutoEdges, если их &amp;gt;=1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="510" y="1240" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="xOqZB8mLKuCw61lma7QM-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xOqZB8mLKuCw61lma7QM-81" target="xOqZB8mLKuCw61lma7QM-25" edge="1">
+        <mxCell id="oMOU8abp3YVI7Rxpy9HV-312" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xOqZB8mLKuCw61lma7QM-81" target="xOqZB8mLKuCw61lma7QM-25">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-260" y="325" />
-              <mxPoint x="-260" y="235" />
+              <mxPoint x="-270" y="357" />
+              <mxPoint x="-270" y="261" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="xOqZB8mLKuCw61lma7QM-81" value="Получит предыдущий шаг, откатит кэш, запустит процессинг шага с отметкой, что не надо автоматики" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-220" y="278.5" width="260" height="61.5" as="geometry" />
+          <mxGeometry x="-200" y="311.25" width="260" height="61.5" as="geometry" />
         </mxCell>
         <mxCell id="xOqZB8mLKuCw61lma7QM-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xOqZB8mLKuCw61lma7QM-26" target="xOqZB8mLKuCw61lma7QM-81" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1395,7 +1389,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="oMOU8abp3YVI7Rxpy9HV-62" value="Если не передан, то берем self.nextStepId" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-10" y="407" width="160" height="30" as="geometry" />
+          <mxGeometry x="-20" y="407" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="oMOU8abp3YVI7Rxpy9HV-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="EpIali6iQXWB2i0QFsvH-40" target="oMOU8abp3YVI7Rxpy9HV-62">
           <mxGeometry relative="1" as="geometry" />
@@ -1790,8 +1784,8 @@
         </mxCell>
         <mxCell id="oMOU8abp3YVI7Rxpy9HV-148" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1490" y="1957" as="sourcePoint" />
-            <mxPoint x="1700" y="1957" as="targetPoint" />
+            <mxPoint x="1490" y="1940" as="sourcePoint" />
+            <mxPoint x="1700" y="1940" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="oMOU8abp3YVI7Rxpy9HV-149" value="scriptRunId, nextStepId" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oMOU8abp3YVI7Rxpy9HV-148">
@@ -2181,11 +2175,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oMOU8abp3YVI7Rxpy9HV-293" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="oMOU8abp3YVI7Rxpy9HV-291" target="oMOU8abp3YVI7Rxpy9HV-286">
+        <mxCell id="oMOU8abp3YVI7Rxpy9HV-313" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="oMOU8abp3YVI7Rxpy9HV-291" target="oMOU8abp3YVI7Rxpy9HV-286">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="3880" y="2620" />
-              <mxPoint x="3880" y="2030" />
+              <mxPoint x="3810" y="2620" />
+              <mxPoint x="3810" y="2025" />
             </Array>
           </mxGeometry>
         </mxCell>
