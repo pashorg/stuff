@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-05T07:48:47.190Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="eFmYtc_ZlkOIOMj2YYLB" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-05T07:57:03.812Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="8pDqPaCRg0Ckp5BQXd56" version="22.0.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="3909" dy="2203" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2105" dy="1186" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -1158,7 +1158,7 @@
         <mxCell id="yP3TNujs68GKWhurMsJ--48" value="- edges: List[Edge]" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="yP3TNujs68GKWhurMsJ--45">
           <mxGeometry y="78" width="320" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="yP3TNujs68GKWhurMsJ--49" value="- autoEdges: List[Edge]" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="yP3TNujs68GKWhurMsJ--45">
+        <mxCell id="yP3TNujs68GKWhurMsJ--49" value="- not_false_auto_edges: List[Edge]" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="yP3TNujs68GKWhurMsJ--45">
           <mxGeometry y="104" width="320" height="26" as="geometry" />
         </mxCell>
         <mxCell id="yP3TNujs68GKWhurMsJ--50" value="- content: str" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="yP3TNujs68GKWhurMsJ--45">
@@ -1188,7 +1188,7 @@
         <mxCell id="yP3TNujs68GKWhurMsJ--58" value="- _has_auto_edges(): bool" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="yP3TNujs68GKWhurMsJ--45">
           <mxGeometry y="426" width="320" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="yP3TNujs68GKWhurMsJ--59" value="- _check_edges_auto_clauses(context): int | None" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="yP3TNujs68GKWhurMsJ--45">
+        <mxCell id="yP3TNujs68GKWhurMsJ--130" value="- _check_edges_auto_clauses(context): int | None" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="yP3TNujs68GKWhurMsJ--45">
           <mxGeometry y="452" width="320" height="26" as="geometry" />
         </mxCell>
         <mxCell id="yP3TNujs68GKWhurMsJ--70" value="- _make_form(context): dict | None" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="yP3TNujs68GKWhurMsJ--45">
