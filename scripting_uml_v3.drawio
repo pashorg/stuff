@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-08T09:04:27.270Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="NnByV1Ycpsph5qYazLWs" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-08T09:24:07.653Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="pD_iD5iWfwVOM9uFyrcA" version="22.0.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="3867" dy="1713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5387" dy="2570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -1164,6 +1164,17 @@
         </mxCell>
         <mxCell id="NmQdZEa5i_YJXCQIF5mG-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="yP3TNujs68GKWhurMsJ--86" target="NmQdZEa5i_YJXCQIF5mG-17">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NmQdZEa5i_YJXCQIF5mG-31" value="@jusamorez (v3):&amp;nbsp;Тут можно использовать паттерн &quot;команда.&quot; StepJob может зависеть от некоторого общего интерфейса ExecutableJob, чьи реализации могут динамически импортится через importlib.import_module, инициироваться контекстом и иметь общий метод для запуска, типа job.execute, а также общую логику обработки ошибок (кидать одинаковые, понятные для StepJob ошибки)&lt;br&gt;&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="120" y="1640" width="320" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="NmQdZEa5i_YJXCQIF5mG-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.999;entryY=0.074;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="NmQdZEa5i_YJXCQIF5mG-31" target="yP3TNujs68GKWhurMsJ--104">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="1710" />
+              <mxPoint x="480" y="1305" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
