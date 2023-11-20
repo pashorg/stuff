@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-20T05:14:23.148Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="xCbnHkTiS94u0X_iN29U" version="22.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-20T11:46:56.791Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="cnWCy6gy0pCZ_leHGXhx" version="22.1.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2932" dy="1186" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -162,11 +162,11 @@
         <mxCell id="yP3TNujs68GKWhurMsJ--22" value="- _rollback_cache(): int" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" parent="yP3TNujs68GKWhurMsJ--0" vertex="1">
           <mxGeometry y="860" width="400" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Ak-4ImiHKO8eSP6kHmCs-15" value="+ loadl_last_step(): dict(&lt;br&gt;&amp;nbsp; &amp;nbsp; form: dict | None,&lt;br style=&quot;border-color: var(--border-color); padding: 0px; margin: 0px;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; content: str | None,&lt;br&gt;&lt;/span&gt;&amp;nbsp; &amp;nbsp; edges: dict | None&lt;br&gt;)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="yP3TNujs68GKWhurMsJ--0" vertex="1">
+        <mxCell id="Ak-4ImiHKO8eSP6kHmCs-15" value="+ load_last_step(): dict(&lt;br&gt;&amp;nbsp; &amp;nbsp; form: dict | None,&lt;br style=&quot;border-color: var(--border-color); padding: 0px; margin: 0px;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; content: str | None,&lt;br&gt;&lt;/span&gt;&amp;nbsp; &amp;nbsp; edges: dict | None&lt;br&gt;)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="yP3TNujs68GKWhurMsJ--0" vertex="1">
           <mxGeometry y="890" width="400" height="90" as="geometry" />
         </mxCell>
         <mxCell id="yP3TNujs68GKWhurMsJ--45" value="Step" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="540" y="1057" width="320" height="633" as="geometry">
+          <mxGeometry x="540" y="1169" width="320" height="633" as="geometry">
             <mxRectangle x="220" y="120" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -227,14 +227,14 @@
         <mxCell id="yP3TNujs68GKWhurMsJ--117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=diamondThin;endFill=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="yP3TNujs68GKWhurMsJ--63" target="yP3TNujs68GKWhurMsJ--51" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1130" y="1457" />
-              <mxPoint x="920" y="1457" />
-              <mxPoint x="920" y="1226" />
+              <mxPoint x="1130" y="1569" />
+              <mxPoint x="920" y="1569" />
+              <mxPoint x="920" y="1338" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="yP3TNujs68GKWhurMsJ--63" value="StepForm" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="980" y="1517" width="300" height="112" as="geometry">
+          <mxGeometry x="980" y="1629" width="300" height="112" as="geometry">
             <mxRectangle x="220" y="120" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -307,7 +307,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yP3TNujs68GKWhurMsJ--96" value="Edge" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="980" y="1226" width="300" height="190" as="geometry">
+          <mxGeometry x="980" y="1338" width="300" height="190" as="geometry">
             <mxRectangle x="220" y="120" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -339,7 +339,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yP3TNujs68GKWhurMsJ--104" value="StepJob" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="200" y="1293" width="240" height="168" as="geometry">
+          <mxGeometry x="200" y="1405" width="240" height="168" as="geometry">
             <mxRectangle x="220" y="120" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -362,7 +362,7 @@
           <mxGeometry y="138" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yP3TNujs68GKWhurMsJ--111" value="- Имхо, лучше все же классы и методы. Та же авторизация в СПАСе требует логики формирования токена&lt;br&gt;-&amp;nbsp;Чтобы ответить на этот вопрос, нужно понять, а будет ли юзкейс, в котором модератор скрипта будет хотеть выполнить произвольный запрос к API? Или у него будет возможность выбирать только из заранее реализованных в сервисе?" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="130" y="1493" width="310" height="140" as="geometry" />
+          <mxGeometry x="130" y="1605" width="310" height="140" as="geometry" />
         </mxCell>
         <mxCell id="yP3TNujs68GKWhurMsJ--112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="yP3TNujs68GKWhurMsJ--105" target="yP3TNujs68GKWhurMsJ--111" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1170,13 +1170,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NmQdZEa5i_YJXCQIF5mG-31" value="@jusamorez (v3):&amp;nbsp;Тут можно использовать паттерн &quot;команда.&quot; StepJob может зависеть от некоторого общего интерфейса ExecutableJob, чьи реализации могут динамически импортится через importlib.import_module, инициироваться контекстом и иметь общий метод для запуска, типа job.execute, а также общую логику обработки ошибок (кидать одинаковые, понятные для StepJob ошибки)&lt;br&gt;&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="120" y="1640" width="320" height="140" as="geometry" />
+          <mxGeometry x="120" y="1752" width="320" height="140" as="geometry" />
         </mxCell>
         <mxCell id="NmQdZEa5i_YJXCQIF5mG-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.999;entryY=0.074;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;startArrow=classic;startFill=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="NmQdZEa5i_YJXCQIF5mG-31" target="yP3TNujs68GKWhurMsJ--104" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="480" y="1710" />
-              <mxPoint x="480" y="1305" />
+              <mxPoint x="480" y="1822" />
+              <mxPoint x="480" y="1417" />
             </Array>
           </mxGeometry>
         </mxCell>
